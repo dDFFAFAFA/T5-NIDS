@@ -1,0 +1,36 @@
+# 忽略数据文件
+*.parquet
+*.csv
+*.json
+*.pcap
+
+# 忽略模型权重
+*.pth
+*.h5
+*.ckpt
+
+# 忽略实验输出和检查点
+checkpoints/
+results/
+
+# 忽略临时文件
+*.tmp
+*.log
+*.bak
+
+# 忽略Python缓存文件
+__pycache__/
+*.py[cod]
+
+# 忽略环境配置
+.env
+*.yml
+
+# 忽略IDE配置文件
+.vscode/
+.idea/
+
+# 忽略其他不必要的文件
+.DS_Store
+*.swp
+*.swo
